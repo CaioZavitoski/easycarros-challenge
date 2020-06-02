@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.navbar {
+  background: #48bfdd;
+  color: white;
+  padding: 18px;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+.navbar span {
+  margin-left: 120px;
+}
+
+.navbar-logo {
+  width: 12%;
+  float: right;
+  margin-right: 120px;
+  margin-top: 8px;
+}
+
+.container {
+  margin-top: 80px;
+}
+
+.plate-input {
+  margin-top: 12px;
+  width: 40%;
+}
+
+input {
+  border: 2px solid #48bfdd;
+}
+
+.input-error {
+  margin-top: 12px;
+  width: 40%;
+  border: 2px solid #eb7979;
+}
+
+hr {
+  margin-top: 70px;
+}
+
+.plates-list {
+  margin-left: 450px;
+  margin-top: 30px;
+}
+
+.plate {
+  margin-left: 180px;
+  margin-top: 40px;
+  list-style: none;
+  font-size: 20px;
+  width: 40%;
+}
+
+.btn-submit {
+  padding: 10px 30px;
+  border-radius: 4px;
+  font-size: 16px;
+  color: white;
+  background: #000000;
+  cursor: pointer;
+}
+
+.btn-delete {
+  float: right;
+  width: 18px;
+  cursor: pointer;
+}

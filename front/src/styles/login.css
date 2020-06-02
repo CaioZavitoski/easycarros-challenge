@@ -1,0 +1,59 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5em;
+  display: block;
+}
+
+.login-form {
+  margin-top: 2em;
+}
+
+input {
+  margin-bottom: 1em;
+  padding: 12px;
+  width: 14%;
+  border: 2px solid #3ec4e4;
+  border-radius: 5px;
+}
+
+.error {
+  border: 2px solid #eb7979;
+  border-radius: 5px;
+}
+
+#warning {
+  display: block;
+  color: #eb7979;
+  font-weight: bold;
+}
+
+input:focus {
+  outline: none;
+}
+
+button:focus,
+button:hover {
+  opacity: 1;
+  outline: #39b0ce;
+}
+
+.submit-button {
+  padding: 12px;
+  width: 14%;
+  border: 2px solid #3ec4e4;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  background-color: #3ec4e4;
+  opacity: 0.4;
+}
