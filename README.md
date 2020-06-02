@@ -8,6 +8,8 @@
 <p align="center">
 Olá! esse é meu desafio realizado para a <b>Easy Carros.
 </p>
+  
+  <hr />
 
 ## Como utilizar a aplicação
 
