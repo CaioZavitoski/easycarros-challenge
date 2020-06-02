@@ -23,11 +23,11 @@
 }
 
 .container {
-  margin-top: 80px;
+  margin-top: 45px;
 }
 
 .plate-input {
-  margin-top: 12px;
+  margin-top: 50px;
   width: 40%;
 }
 
@@ -42,12 +42,13 @@ input {
 }
 
 hr {
-  margin-top: 70px;
+  margin-top: 55px;
 }
 
 .plates-list {
   margin-left: 450px;
   margin-top: 30px;
+  margin-bottom: 45px;
 }
 
 .plate {
@@ -59,11 +60,12 @@ hr {
 }
 
 .btn-submit {
-  padding: 10px 30px;
+  padding: 12px 30px;
   border-radius: 4px;
   font-size: 16px;
   color: white;
-  background: #000000;
+  background: #48bfdd;
+  border: 1px solid #48bfdd;
   cursor: pointer;
 }
 

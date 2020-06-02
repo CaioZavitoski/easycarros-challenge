@@ -10,7 +10,7 @@ const App = () => {
         <Switch>
           <Route exact path='/' component={Login} />
           <Route exact path='/vehicles' component={Vehicles} />
-          <Route render={() => <h2>404 Pagina não encontrada</h2>} />
+          <Route render={() => <h1>404 Pagina não encontrada</h1>} />
         </Switch>
       </BrowserRouter>
     </div>

@@ -30,7 +30,7 @@ function Vehicle() {
     }
 
     await api.post('/vehicle', {
-      plate: inputValue,
+      plate: inputValue.toUpperCase(),
     });
     getPlates();
   }
@@ -90,3 +90,4 @@ function Vehicle() {
 }
 
 export default Vehicle;
+

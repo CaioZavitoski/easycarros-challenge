@@ -22,9 +22,7 @@ function Login() {
         password,
       })
       .then(({ data }) => {
-        console.log(data);
         const token = data.data.token;
-        console.log(token);
         localStorage.setItem('@easyCarros', token);
         history.push('/vehicles');
       })

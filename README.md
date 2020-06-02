@@ -8,13 +8,18 @@
 <p align="center">
 Olá! esse é meu desafio realizado para a <b>Easy Carros.
 </p>
+  
+  <hr />
 
-## Como utilizar a aplicação
+ # Como utilizar a aplicação
+ ## API
 
-1.  Clone o projeto para um diretório e utilize o comando **git clone**
-2.  No diretório onde foi clonado o projeto, acesse a pasta **API**
-3.  Rode o comando **yarn install**
-4.  Após a instalação, em seguida rode o comando **yarn start**
-5.  Acesse a pasta **FRONT** e rode o comando **yarn install**
-6.  Com o projeto instalado rode  **yarn start**
-7.  Abra o navegador no servidor local:  [http://localhost:3000/](http://localhost:4200/)
+ 1.  Clone o projeto utilizando o comando **git clone** para um diretório. 
+ 2.  No diretório onde foi clonado o projeto, acesse a pasta **API**.
+ 3.  Rode o comando **yarn install**.
+ 4.  Após a instalação, em seguida rode o comando **yarn start**.
+ 
+ ## FRONT
+ 1.  Acesse a pasta **FRONT** e rode o comando **yarn install**.
+ 2.  Com o projeto instalado rode  **yarn start**.
+ 3.  Abra o navegador no servidor local:  [http://localhost:3000/](http://localhost:4200/)
